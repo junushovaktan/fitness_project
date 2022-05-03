@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* home */
+.home {
+    height: 100vh;
+    background: linear-gradient(200deg, rgba(0, 0, 0, 0.56), #000),url(../imagas/main.jpg) no-repeat center;;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 0 30px 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+.navbar ul a{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+.navbar ul a:hover{
+    border-bottom: 2px solid white;
+}
+.navbar ul li:not(:first-child) {
+    margin-left: 20px;
+}
+.search {
+    background: rgba(227, 207, 207, 0.41);
+    width: 150px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.search input{
+    border: none;
+    background: none;
+    width: 100px;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+}
+.search input::-webkit-input-placeholder{
+    color: white;
+}
+.home_inner {
+    display: flex;
+    align-items: center;
+}
+.home_inner p{
+    color: white;
+    font-size: 70px;
+    width: 750px;
+}
+
+
+
+/* Что такое фитнес дома */
+.what_fitness{
+    margin-top: 30px;
+}
+.what_inner{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    background: url(../imagas/young_man.png) no-repeat center;
+    background-size: cover;
+    height: 600px;
+}
+.what_inner ul li {
+    font-size: 30px;
+    line-height: 80px;
+}
+
+
+
+/* video */
+.video_main{
+    margin-top: 40px;
+}
+.video{
+    text-align: center;
+}
+.video video{
+    width: 1000px;
+    height: 600px;
+}
+.video_main p{
+    font-size: 38px;
+}
+.video_main .but{
+    margin-top: 20px;
+}
+
+
+
+/*collage*/
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+.top img{
+    width: 670px;
+    height: 447px;
+    object-fit: cover;
+}
+.first p{
+    font-size: 23px;
+    width: 591px;
+}
+.second p{
+    font-size: 23px;
+    width: 591px;
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+.bottom img{
+    width: 670px;
+    height: 485px;
+
+    object-fit: cover;
+}
+.collage .but {
+    margin-top: 40px;
+}
+
+
+
+/* Programm */
+
+.programm{
+    margin-top: 30px
+}
+.programm_inner{
+    background: rgba(230, 224, 224, 0.77);
+    padding: 20px;
+}
+.programm_h{
+    text-align: center;
+}
+.programm_h{
+    font-size: 25px;
+}
+
+.trio{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    padding-left: 20px;
+}
+.left_t{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.first_t h3{
+    font-size: 25px;
+    font-size: 700;
+    text-transform: uppercase;
+}
+.first_t div{
+    border: none;
+    width: 400px;
+    height: 5px;
+    background-color: black;
+}
+.first_t p{
+    font-size: 24px;
+    width: 320px;
+    margin-top: 10px;
+}
+.image{
+    background: url(../imagas/one.png) no-repeat center;
+    background-size: cover;
+    width: 459px;
+}
+.right_t{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bottom_2{
+    background-color: #CD3A6F;
+    text-align: center;
+    width: 970px;
+    height: 143px;
+    margin: 40px auto 30px;
+    padding: 50px;
+
+}
+.bottom_2 p{
+    color: white;
+    font-size: 23px;
+    width: 900px;
+}
+
+
+
+
+/*also */
+.also{
+    margin-top: 30px;
+}
+.also_inner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.tri img{
+    width: 448px;
+    height: 536px;
+    object-fit: cover;
+}
+.tri h4{
+    text-align: center;
+    font-size: 30px;
+}
+.tri p{
+    text-align: center;
+    font-size: 20px;
+}
+.buts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    width: 1272px;
+}
+
+
+/* Сontent */
+
+.train{
+    margin-top: 30px;
+}
+.train h2{
+    font-size: 27px;
+    width: 900px;
+    margin: 40px auto;
+}
+.train_content h4{
+    font-size: 34px;
+}
+.train_content ul{
+    margin-top: 30px;
+    font-size: 30px;
+}
+.train_content li{
+    line-height: 50px;
+}
+.pozy{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.pozyy img{
+    width: 440px;
+    height: 400px;
+    /* object-fit: cover; */
+}
+.pozyy p{
+    text-align: center;
+    font-size: 28px;
+}
